@@ -141,7 +141,7 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 2.5rem;
-    width: 13rem;
+    width: 14rem;
 }
 
 .icon i {
@@ -329,11 +329,11 @@ body {
 }
 
 #bar-prct7 {
-    width: 60%;
+    width: 80%;
 }
 
 #bar-prct8 {
-    width: 80%;
+    width: 60%;
 }
 
 #skill-box {
