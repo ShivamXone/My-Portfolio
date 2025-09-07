@@ -1,0 +1,675 @@
+@font-face {
+    font-family: "Amsterdam";
+    src: url('./src/Amsterdam.woff2');
+}
+
+@font-face {
+    font-family: "GreaterTheory";
+    src: url('./src/GreaterTheory.woff2');
+}
+
+@font-face {
+    font-family: "OceanTrace";
+    src: url('./src/OceanTrace.woff2');
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('./src/Montserrat.woff2');
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url('./src/Metropolis.woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Metropolis";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #EBEBEB;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#p1-l {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#p1-l h2 {
+    font-weight: 200;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-top: 3rem;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#title #bar {
+    height: 2px;
+    width: 100px;
+    background-color: #000;
+}
+
+#subtitles {
+    margin-top: 3rem;
+}
+
+.sub {
+    display: flex;
+    gap: 5px;
+}
+
+.sub h3 {
+    font-weight: 500;
+}
+
+#p1-lb {
+    display: flex;
+    gap: 1rem;
+}
+
+.cont {
+    border: 2px solid #000;
+    padding: 8px 15px;
+    border-radius: 50px;
+    display: flex;
+    font-size: 1rem;
+}
+
+.cont a {
+    text-decoration: none;
+    color: #000;
+}
+
+#p1-r {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#p1-ru {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#p1-ru p {
+    width: 70%;
+    margin: 10px 0;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+#p1-rb a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 1rem;
+}
+
+#icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 2.5rem;
+    width: 13rem;
+}
+
+.icon i {
+    font-size: 1.5rem;
+}
+
+.icon i:hover {
+    font-size: 1.7rem;
+    margin: 0 5px;
+}
+
+#sign {
+    display: flex;
+    height: 2rem;
+    width: 70%;
+    background-color: crimson;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+#sign img {
+    height: 20px;
+    width: 100px;
+}
+
+#sign h3 {
+    font-family: "Amsterdam";
+    color: #EBEBEB;
+}
+
+#p1-b {
+    height: 50%;
+    width: 100%;
+    flex-basis: 100%;
+    padding: 4rem 16rem;
+}
+
+#p1-b h3 {
+    font-family: "Montserrat";
+    font-size: 1.3rem;
+}
+
+.Ed {
+    display: flex;
+    margin-top: 10px;
+}
+
+.Ed-h4 {
+    width: 20rem;
+    margin: 0.5rem 1.5rem;
+}
+
+.fade-h4 {
+    color: #494949;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+#p2-l {
+    width: 60%;
+    height: 100%;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#p2-l h1 {
+    font-size: 3rem;
+}
+
+#skills {
+    height: 20%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.skill {
+    height: 100px;
+    width: 100px;
+    border: 1.8px solid #000;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skill:hover {
+    background-color: #000;
+    color: #EBEBEB;
+    transition: ease-in;
+    cursor: pointer;
+}
+
+.skill i {
+    font-size: 2rem;
+    margin-bottom: 6px;
+}
+
+.skill h4 {
+    font-size: 13px;
+}
+
+#p2-r {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#skill-bars {
+    height: 60%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.skill-bar-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.skill-bar-div img {
+    height: 30px;
+    width: 30px;
+}
+
+.skill-bar {
+    height: 15px;
+    width: 300px;
+    background-color: #494949;
+    border-radius: 20px;
+}
+
+.bar-prct {
+    height: 100%;
+    background-color: crimson;
+    border-radius: 20px;
+
+}
+
+#bar-prct1 {
+    width: 95%;
+}
+
+#bar-prct2 {
+    width: 95%;
+}
+
+#bar-prct3 {
+    width: 70%;
+}
+
+#bar-prct4 {
+    width: 65%;
+}
+
+#bar-prct5 {
+    width: 90%;
+
+}
+
+#bar-prct6 {
+    width: 80%;
+}
+
+#bar-prct7 {
+    width: 60%;
+}
+
+#bar-prct8 {
+    width: 80%;
+}
+
+#skill-box {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#skill-box1 {
+    height: 50px;
+    width: 80%;
+}
+
+#skill-box2 {
+    height: 50px;
+    width: 95%;
+}
+
+.sbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 18px;
+    border: 2px solid #000;
+    margin: 0 3px;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: #000;
+    color: #EBEBEB;
+}
+
+.sbox:hover {
+    background-color: #EBEBEB;
+    color: #000;
+    cursor: pointer;
+}
+
+#page3 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page3 h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+#projects {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project {
+    height: 180px;
+    width: 280px;
+    margin: 1rem;
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+}
+
+.project:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px inset;
+    filter: grayscale(0%);
+}
+
+#page4 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page4 h1 {
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+#certi-div {
+    height: 90%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.certificates {
+    height: 10%;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.certificates h2 {
+    font-size: 1.2rem;
+    user-select: none;
+}
+
+.certificates h2 i {
+    margin-right: 1rem;
+}
+
+.certificates a {
+    padding: 8px 20px;
+    background-color: #494949;
+    border-radius: 10px;
+    color: #EBEBEB;
+    text-decoration: none;
+    display: none;
+}
+
+.certificates:hover a {
+    display: block;
+    cursor: pointer;
+}
+
+.certificates a:hover {
+    background-color: crimson;
+}
+#page5{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+#p5l{
+    flex-direction: column;
+}
+#p5l h1{
+    font-size: 5rem;
+    font-family: "OceanTrace";
+}
+#p5l h5{
+    font-size: 1rem;
+    margin: 5px 0;
+}
+#p5r p{
+    width: 60%;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.p5-cont{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 320px) and (max-width: 426px) {
+
+    #page1 {
+        flex-direction: column;
+    }
+
+    #p1-l {
+        height: 33%;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    #p1-l h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-top: 2rem;
+    }
+
+    #subtitles {
+        margin-top: 2rem;
+        font-size: 10px;
+    }
+
+    .cont {
+        padding: 4px 10px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    .cont a {
+        font-size: 10px;
+    }
+
+    #p1-r {
+        height: 33%;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    #p1-ru {
+        margin-top: 1rem;
+    }
+
+    #p1-ru p {
+        width: 70%;
+        margin: 10px 0;
+        font-size: 10px;
+    }
+
+    #p1-rb a {
+        font-size: 10px;
+    }
+
+    #sign {
+        font-size: 8px;
+    }
+
+    #p1-b {
+        height: 33%;
+        width: 100%;
+        flex-basis: 0%;
+        padding: 10px;
+    }
+
+    #p1-b h3 {
+        font-family: "Montserrat";
+        font-size: 12px;
+    }
+
+    .Ed {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .Ed-h4 {
+        width: 20rem;
+        font-size: 10px;
+        margin: 0.5rem 1.5rem;
+    }
+
+    #page2 {
+        height: 100vh;
+        width: 100%;
+        background-color: #EBEBEB;
+    }
+
+    #page2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #p2-l {
+        width: 100%;
+        height: 50%;
+        padding: 1rem;
+    }
+
+    #skills {
+        height: 30%;
+        width: 80%;
+    }
+
+    .skill {
+        height: 80px;
+        width: 150px;
+    }
+
+    #p2-r {
+        width: 100%;
+        height: 50%;
+    }
+
+    #skill-bars {
+        height: 50%;
+        width: 95%;
+    }
+
+    .skill-bar-div {
+        margin: 3px 0;
+    }
+
+    #skill-box {
+        height: 50%;
+        width: 100%;
+    }
+
+    .sbox {
+        padding: 5px 15px;
+        margin: 0 2px;
+        font-size: 12px;
+    }
+
+    #page4 h1 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    #certi-div {
+        width: 80%;
+    }
+
+    .certificates {
+        padding: 0;
+    }
+
+    .certificates a {
+        padding: 8px 20px;
+        display: block;
+    }
+#page5{
+    flex-direction: column;
+}
+#p5l h1{
+    font-size: 3rem;
+}
+
+#p5r p{
+    width: 80%;
+    font-size: 1rem;
+}
+.p5-cont{
+    height: 50%;
+    width: 100%;
+}
+}
