@@ -126,6 +126,12 @@ body {
     font-size: 1rem;
 }
 
+#p1-rb {
+    display: flex;
+    gap: 1rem;
+
+}
+
 #p1-rb a {
     text-decoration: none;
     color: #000;
@@ -273,7 +279,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .skill-bar-div {
@@ -418,6 +423,164 @@ body {
     filter: grayscale(0%);
 }
 
+.uip {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-set {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+.btn {
+    height: 2.5rem;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.btn i {
+    margin: 5px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #000;
+}
+
+#page3a {
+    background-image: url("./src/UI1.webp");
+    position: relative;
+}
+
+#page3b {
+    background-image: url("./src/UI2.webp");
+    position: relative;
+
+}
+
+#page3c {
+    background-image: url("./src/UI3.webp");
+    position: relative;
+
+}
+
+#page3d {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#p3d-content {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.p3dc {
+    height: 90%;
+    width: 18%;
+}
+
+.p3dct {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#p3dct1 {
+    background-color: #9CAB84;
+}
+
+#p3dct2 {
+    background-color: #F39EB6;
+}
+
+#p3dct3 {
+    background-color: #B6AE9F;
+}
+
+#p3dct4 {
+    background-color: #80A1BA;
+}
+
+#p3dct5 {
+    background-color: #C2A68C;
+}
+
+.uiimg {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uiimg img {
+    width: 80%;
+}
+
+.uitext {
+    height: 50%;
+    width: 100%;
+}
+
+.uitext h1 {
+    font-size: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    line-height: 14rem;
+    margin-top: 2.5rem;
+    color: #EBEBEB;
+    user-select: none;
+}
+
+.p3dct:hover .uiimg img {
+    scale: 1.2;
+    transition: all ease 0.5s;
+}
+
+.p3dc:hover {
+    cursor: pointer;
+}
+
+.p3dcb {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.p3dcb a {
+    text-decoration: none;
+    color: #000;
+}
+
 #page4 {
     height: 100vh;
     width: 100%;
@@ -477,34 +640,41 @@ body {
 .certificates a:hover {
     background-color: crimson;
 }
-#page5{
+
+#page5 {
     height: 100vh;
     width: 100%;
     display: flex;
 }
-#p5l{
+
+#p5l {
     flex-direction: column;
 }
-#p5l h1{
+
+#p5l h1 {
     font-size: 5rem;
     font-family: "OceanTrace";
 }
-#p5l h5{
+
+#p5l h5 {
     font-size: 1rem;
     margin: 5px 0;
 }
-#p5r p{
+
+#p5r p {
     width: 60%;
     font-size: 1.5rem;
     text-align: justify;
 }
-.p5-cont{
+
+.p5-cont {
     height: 100%;
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 @media (min-width: 320px) and (max-width: 426px) {
 
     #page1 {
@@ -640,6 +810,74 @@ body {
         font-size: 12px;
     }
 
+    #page3a {
+        background-image: url("./src/UIM2.webp");
+    }
+
+    #page3b {
+        background-image: url("./src/UIM1.webp");
+    }
+
+    #page3c {
+        background-image: url("./src/UIM3.webp");
+    }
+
+    .btn-set {
+        width: 90%;
+        bottom: 70px;
+        right: 20px;
+    }
+
+    .btn {
+        height: 2.5rem;
+        width: 15rem;
+        padding: 5px;
+    }
+
+    #p3d-content {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .p3dc {
+        height: 18%;
+        width: 90%;
+    }
+
+    .p3dct {
+        height: 80%;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .uiimg {
+        height: 100%;
+        width: 50%;
+    }
+
+    .uiimg img {
+        width: 60%;
+    }
+
+    .uitext {
+        height: 100%;
+        width: 50%;
+    }
+
+    .uitext h1 {
+        font-size: 10rem;
+        line-height: 9rem;
+        margin-top: 0.5rem;
+    }
+
+    .p3dcb {
+        height: 15%;
+        width: 100%;
+        gap: 5px;
+    }
+
     #page4 h1 {
         font-size: 2rem;
         margin-top: 2rem;
@@ -657,19 +895,22 @@ body {
         padding: 8px 20px;
         display: block;
     }
-#page5{
-    flex-direction: column;
-}
-#p5l h1{
-    font-size: 3rem;
-}
 
-#p5r p{
-    width: 80%;
-    font-size: 1rem;
-}
-.p5-cont{
-    height: 50%;
-    width: 100%;
-}
+    #page5 {
+        flex-direction: column;
+    }
+
+    #p5l h1 {
+        font-size: 3rem;
+    }
+
+    #p5r p {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .p5-cont {
+        height: 50%;
+        width: 100%;
+    }
 }
